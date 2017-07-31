@@ -102,7 +102,7 @@ colon({
 > Updates the element's textContent.
 
 ```html
-<span :ext="message"></span>
+<span :text="message"></span>
 <!-- same as -->
 <span>{{ message }}</span>
 ```
