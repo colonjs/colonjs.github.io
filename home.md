@@ -108,7 +108,7 @@ Render as:
 
 ## Templates
 
-`colon` has a custom templating syntax (`{{}}`). All attributes (except directives, it use js syntax) and text are compiled for these templates.
+`colon` has a custom templating syntax `{{}}`. All attributes (except directives, it use js syntax) and text are compiled for these templates.
 
 ## Directives
 

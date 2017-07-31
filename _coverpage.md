@@ -4,4 +4,4 @@
 
 
 [GitHub](https://github.com/colonjs/colon)
-[Get Started](#colon-template-engine)
+[Get Started](#colon-javascript-template-engine)
