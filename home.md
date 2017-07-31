@@ -4,7 +4,18 @@
 
 [![Travis-ci](https://travis-ci.org/colonjs/colon.svg?branch=master)](https://travis-ci.org/colonjs/colon)
 
-## Usage
+## Getting Started
+
+```html
+<body>
+    <script src="https://unpkg.com/colon"></script>
+    <script>
+        // Our Code Goes Here
+    </script>
+</body>
+```
+
+## Initialization
 
 ```html
 <div class="app">
@@ -51,6 +62,8 @@ colon({
     },
 });
 ```
+
+Render as:
 
 ```html
 <div class="colon">
