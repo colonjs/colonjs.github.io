@@ -80,7 +80,7 @@ colon({
 
 ### `each`
 
-> The variables in each list are `item`
+> The variable in each list is `item`
 
 ```html
 <li :each="comments">{{ item.content }}</li>
