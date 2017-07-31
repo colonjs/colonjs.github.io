@@ -72,7 +72,7 @@ colon({
 
 ### `if`
 
-> Not render in DOM
+> If the value is `false`, it'll not render in DOM.
 
 ```html
 <span :if="true">Just Me.</span>
