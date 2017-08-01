@@ -2,8 +2,21 @@
 
 # :colon - JavaScript template engine.
 
-[![Travis-ci](https://travis-ci.org/colonjs/colon.svg?branch=master)](https://travis-ci.org/colonjs/colon)
-[![npm](https://img.shields.io/npm/v/colon.svg)](https://www.npmjs.com/package/colon)
+<a href="https://travis-ci.org/colonjs/colon">
+    <img src="https://travis-ci.org/colonjs/colon.svg?branch=master" alt="Travis-ci">
+</a>
+<a href="https://www.npmjs.com/package/colon">
+    <img src="https://img.shields.io/npm/v/colon.svg" alt="NPM Version">
+</a>
+<a href="https://www.npmjs.com/package/colon">
+    <img src="https://img.shields.io/npm/dt/colon.svg" alt="NPM Downloads">
+</a>
+<a href="javascript:;">
+    <img src="https://img.shields.io/github/size/colonjs/colon/dist/colon.min.js.svg" alt="size">
+</a>
+<a href="https://github.com/colonjs/colon/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/colonjs/colon.svg" alt="MIT License">
+</a>
 
 ## Installation
 
