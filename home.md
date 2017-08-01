@@ -167,3 +167,66 @@ Render as:
 <!-- the picture will fail to render before the `colon` works -->
 <img src="{{ avatar }}" alt="Just">
 ```
+
+## Class and Style Bindings
+
+### Class Bindings
+
+- Expects: `Object|Array<Object>`
+- Details: We can pass an object or an array to `:class` to dynamically update classes:
+- Usage:
+
+```html
+<span :class="{ active: isActive }"></span>
+<span :class="[{ active: isActive }, { 'is-fixed': isFixed }]"></span>
+```
+
+And the following data:
+
+```js
+data: {
+    isActive: true,
+    isFixed: true,
+}
+```
+
+will render as:
+
+```html
+<span class="active"></span>
+<span class="active is-fixed"></span>
+```
+
+### Style Bindings
+
+- Expects: `Object|Array<Object>`
+- Details: We can pass an object or an array to `:style` to dynamically update styles. You can use either camelCase or kebab-case (use quotes with kebab-case) for the CSS property names.
+- Usage:
+
+```html
+<span :style="{ color: activeColor, fontSize: fontSize + 'px' }"></span>
+<span :style="[styleObject1, styleObject2]"></span>
+```
+
+And the following data:
+
+```js
+data: {
+    activeColor: '#42b983',
+    fontSize: 16,
+    styleObject1: {
+        color: '#42b983',
+        backgroundSize: 'cover',
+    },
+    styleObject2: {
+        fontSize: 16 + 'px',
+    },
+}
+```
+
+will render as:
+
+```html
+<span style="color: #42b983; font-size: 16px;"></span>
+<span style="color: #42b983; font-size: 16px; background-size: cover;"></span>
+```
