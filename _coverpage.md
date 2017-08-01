@@ -1,4 +1,4 @@
-![logo](logo.png)
+<img src="logo.png" alt="logo" width="300px">
 
 # colon
 
