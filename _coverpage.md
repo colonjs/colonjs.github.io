@@ -1,6 +1,6 @@
-# colon
-
 ![logo](logo.png)
+
+# colon
 
 > Tiny, fastest and concise template engine.
 
