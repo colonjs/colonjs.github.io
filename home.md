@@ -138,11 +138,14 @@ Render as:
 ### `each`
 
 - Expects: `Array`
-- Details: Render a set of elements based on the given data. For each item, the variable `item` is used to indicate the value.
 - Usage:
 
+You can specify an alias by use the special syntax `alias in expression` or use the default alias `item` and `index`.
+
 ```html
-<li :each="comments">{{ item.content }}</li>
+<li :each="comments" data-index="{{ index }}">{{ item.content }}</li>
+<li :each="comment in comments">{{ comment.content }}</li>
+<li :each="(comment, aliasIndex) in comments" data-index="{{ aliasIndex }}">{{ comment.content }}</li>
 ```
 
 ### `show`
