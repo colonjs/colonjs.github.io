@@ -75,11 +75,11 @@ const data = {
 };
 
 colon({
-    template: `.app`,
+    template: document.querySelector('.app'),
     data,
     computed: {
         fullName() {
-            return this.firstName + this.lastName;
+            return this.user.firstName + this.user.lastName;
         },
     },
 });
