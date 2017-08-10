@@ -96,7 +96,7 @@ template:
         <p><span :text="fullName"></span></p>
     </div>
     <ul class="moments" :if="moments.length">
-        <li :each="moments" :show="item.show">{{ item.content }}</li>
+        <li :each="moment in moments" :show="moment.show">{{ moment.content }}</li>
     </ul>
 </div>
 ```
